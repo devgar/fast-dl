@@ -9,16 +9,16 @@
 
 ### First clone this repo
 
-```
+```sh
 git clone https://github.com/devgar/fast-dl.git
 ```
 
 ### Second, install all node.js dependecies and link executable
 
-```
+```sh
 cd fast-dl
-npm install
-npm link
+npm install # or yarn
+npm link # or yarn link
 ```
 
 ### Finally add the extension to your browser
@@ -41,7 +41,7 @@ Downloads path: /path/to/downloading/dir
 ### Port
 
 Set downloading server's port using `PORT` env variable.
-```
+```sh
 PORT=8000 fast-dl
 ```
 
