@@ -1,7 +1,7 @@
 {
   "name": "fast-dl",
   "version": "0.0.0",
-  "description": "Browser extension + local server to fast download youtube videos",
+  "description": "Browser extension + local server for fast downloading youtube videos",
   "main": "index.js",
   "author": "Edgar Albalate <dev.gardo@gmail.com>",
   "license": "MIT",
@@ -9,6 +9,7 @@
     "fast-dl": "server.js"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "youtube-dl": "^3.0.2"
   }
