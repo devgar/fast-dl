@@ -16,8 +16,10 @@ app.get('/', (req, res, next) => {
   console.log('Downloading from:', url)
   youtubedl.exec(url, ['-x', '--audio-format', 'mp3'], {}, function(err, output) {
     if (err) return next(err)
+
     console.log('Downloaded:\n', output.join('\n'))
     res.json({ status: 'done' })
+    // TODO: Do something useful with downloaded files
   })
 })
 
