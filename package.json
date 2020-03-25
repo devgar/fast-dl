@@ -1,7 +1,7 @@
 {
   "name": "fast-dl",
   "version": "0.0.0",
-  "description": "Browser extension + local server for fast downloading youtube videos",
+  "description": "Browser extension + local server for fast downloading youtube audio as mp3",
   "main": "index.js",
   "author": "Edgar Albalate <dev.gardo@gmail.com>",
   "license": "MIT",

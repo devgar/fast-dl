@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "fast-dl",
-  "description": "Browser extension + local server for fast downloading youtube videos",
+  "description": "Browser extension + local server for fast downloading youtube audio as mp3",
   "version": "0.0.0",
 
   "browser_action": {

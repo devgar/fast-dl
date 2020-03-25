@@ -1,4 +1,5 @@
 # fast-dl
+Browser extension + local server for fast downloading youtube audio as mp3.
 
 ## Requirements
  - [node.js](https://nodejs.org)
