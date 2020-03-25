@@ -22,7 +22,7 @@ npm link # or yarn link
 ```
 
 ### Finally add the extension to your browser
-You can check the path of the extension by runing `fast-dl`.
+You can check the location of the extension by runing `fast-dl`.
 
 ## Usage
 
